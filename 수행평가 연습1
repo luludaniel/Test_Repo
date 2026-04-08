@@ -5,8 +5,9 @@ int main() {
     int i;
 
     for (i = 0; i < 9; i++) {
-        printf("%d * %d = %d\n", dan, i, dan * i) //코드에서 ; 이 빠짐.c언어에서는 모든 코드끝에 꼭 ;을 붙여야 함. 
+        printf("%d * %d = %d\n", dan, i, dan * i)
     }
 
     return 0;
 }
+
