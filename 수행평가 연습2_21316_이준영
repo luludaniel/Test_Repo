@@ -3,8 +3,8 @@
 int main() {
     
     
-    int i;
-    int sum = 0; 
+    int i;    //더할 수
+    int sum = 0;     //초기 합
     for (i = 1; i <= 10; i++) {
         sum = sum + i;
     } //1에서 10까지 차례대로 더함
