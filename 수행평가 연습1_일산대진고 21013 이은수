@@ -1,0 +1,12 @@
+#include <stdio.h> // 표준 라이브러리 선언
+
+int main() {      // 프로그램의 시작 main() 함수
+    int dan = 5;  // 구구단의 단을 나타내는 변수 dan 선언
+    int i;        // 반복문에서 사용할 변수 i 선언
+
+    for (i = 1; i < 9; i++) { // i를 1부터 8까지 1씩 증가시키며 반복
+        printf("%d * %d = %d\n", dan, i, dan * i); // 구구단 결과 한 줄씩 출력
+    }
+
+    return 0; // 프로그램 종료
+}
