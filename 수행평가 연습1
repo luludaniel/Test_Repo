@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include <stdio.h> //헤더파일 불러오기
 
-int main() {
-    int dan = 5; 
-    int i;
+int main() { 
+    int dan = 5; //dan 이라는 인트값에 5 저장
+    int i; //i라는 인트 선언
 
-    for (i = 0; i < 9; i++) {
-        printf("%d * %d = %d\n", dan, i, dan * i)
+    for (i = 0; i < 9; i++) { //i가 0부터 8까지 1을 더해가며 한번씩 반복
+        printf("%d * %d = %d\n", dan, i, dan * i); /* "dan값*i값 = 결과값" 출력(줄내림) */
     }
 
     return 0;
