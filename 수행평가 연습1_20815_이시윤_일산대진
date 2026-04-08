@@ -1,0 +1,12 @@
+#include <stdio.h> // 표준 입출력 라이브러리를 포함합니다.
+
+int main() {
+    int dan = 5; // dan이라는 변수를 선언하고 5로 초기화합니다.
+    int i;// i라는 변수를 선언합니다.
+
+    for (i = 0; i < 9; ++i) {// for문이 시작되는 부분입니다.
+        printf("%d * %d = %d\n", dan, i, dan * i);
+    } // for문이 끝나는 부분입니다.
+
+    return 0;// main 함수가 정상적으로 종료되었음을 나타냅니다.
+}
