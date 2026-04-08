@@ -5,7 +5,7 @@ int main() {
     
     int i; // 반복용 변수
     int sum = 0; // i ~ 10까지 더한 값
-    for (i = 1; i < 10; i++) {
+    for (i = 1; i <= 10; i++) {
         sum = sum + i; // i ~ 10까지 더함
     }
 
