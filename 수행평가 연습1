@@ -5,7 +5,7 @@ int main() {
     int i;
 
     for (i = 0; i < 9; i++) {
-        printf("%d * %d = %d\n", dan, i, dan * i)
+        printf("%d * %d = %d\n", dan, i, dan * i);// 세미클론 없음 
     }
 
     return 0;
