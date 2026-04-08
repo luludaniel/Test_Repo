@@ -4,8 +4,8 @@ int main() {
     int dan = 5; 
     int i;
 
-    for (i = 0; i < 9; i++) {
-        printf("%d * %d = %d\n", dan, i, dan * i)
+    for (i = 1; i <= 9; i++) {                      //구구단은 n*1~n*9까지 있으니 그 부분을 수정했습니다
+        printf("%d * %d = %d\n", dan, i, dan * i);
     }
 
     return 0;
