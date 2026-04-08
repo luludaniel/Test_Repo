@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int dan = 5; // 곱해지는 수
+    int dan = 5; // 곱해지는 수 (5)
     int i; // 곱하는 수
 
     for (i = 1; i <= 9; i++) { // 곱해지는 수(dan)에 1부터 9까지 곱하는 식 출력
