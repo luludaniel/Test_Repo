@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main() {                                                   //main 함수
     
     
     int i;
@@ -13,8 +13,8 @@ int main() {
     if (sum % 2 == 0) { 
         printf('결과는 짝수입니다.\n');
     } else {
-        printf("결과는 홀수입니다.\n")
+        printf("결과는 홀수입니다.\n"); // ; 빠짐
     }
 
-    return 0;
+    return 0;                                               // 0 반환
 }
