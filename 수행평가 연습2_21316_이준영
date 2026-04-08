@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    
+    
+    int i;    //더할 수
+    int sum = 0;     //초기 합
+    for (i = 1; i <= 10; i++) {
+        sum = sum + i;
+    } //1에서 10까지 차례대로 더함
+
+    printf("1부터 10까지의 합: %d\n", sum);
+    if (sum % 2 == 0) { 
+        printf("결과는 짝수입니다.\n");
+    } else {
+        printf("결과는 홀수입니다.\n");
+    }   //나머지를 이용해 홀수 짝수 판단
+
+    return 0;
+}

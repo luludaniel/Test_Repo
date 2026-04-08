@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int dan = 5;  //단수 설정
+    int i;    //곱할 수
+
+//9번 출력을 반복
+    for (i = 1; i <= 9; i++) {
+        printf("%d * %d = %d\n", dan, i, dan * i);     //반복마다 곱 출력
+    }
+
+    return 0;
+}
